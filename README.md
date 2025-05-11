@@ -2,57 +2,61 @@
 desafío 1 de ciencia de datos practicando Python
 
 Objetivo:
+
 Ayudar al Sr. Juan a decidir que tienda deber vender para invertir en un nuevo negocio.
 
 ✅ Factores relevantes para decidir cuál es la mejor tienda:
 
 ✅ 🔍 Análisis de Facturación por Tienda y Producto
+
 Limpia todos los nombres de columnas para evitar errores como KeyError.
 Convierte la fecha correctamente con dayfirst=True (formato latinoamericano).
 Asume que cada fila representa 1 unidad vendida.
 
 Muestra:
 Facturación total por tienda.
+
 Top 10 productos por facturación total.
+
 Top 5 productos más vendidos en cada tienda (cruce tienda-producto).
 
 ✅ 📊 Análisis de Ventas por Categoría
+
 Esto mostrará un gráfico de barras con la facturación total por categoría, ordenada de mayor a menor. También imprime la tabla para inspección rápida.
 
 ✅ ⭐ Calificación promedio de la tienda:
+
 Calcula el promedio de la columna calificación agrupado por tienda.
 
 Lo ordena de mayor a menor.
+
 Lo representa en un gráfico de barras con escala de 0 a 5.
 
 ✅ 📦 Productos Más y Menos Vendidos
-Ordena los productos por su facturación (ventas totales en dinero).
 
-Muestra:
-Los 10 productos más vendidos.
-Los 10 productos menos vendidos.
+Ordena los productos por su facturación (ventas totales en dinero).
+(Los 10 productos más vendidos y 10 menos vendidos)
 
 Los visualiza en gráficos de barras.
-Esto te permitirá ver qué productos están generando más ingresos y cuáles son los menos demandados.
+(Esto te permitirá ver qué productos están generando más ingresos y cuáles son los menos demandados)
 
 ✅ 💸 Envío Promedio por Tienda
 Calcula el costo promedio de envío por tienda, agrupando por la columna tienda.
-
-Lo muestra de manera ordenada, de mayor a menor.
-Visualiza los resultados en un gráfico de barras.
+(Lo muestra de manera ordenada, de mayor a menor,
+Visualiza los resultados en un gráfico de barras)
 
 Este análisis te permitirá ver si alguna tienda tiene un costo de envío más alto en promedio, lo cual puede indicar una estrategia diferente de envío o tarifas más altas.
 
 📊 Análisis combinado por tienda
 Una tienda más conveniente para vender idealmente tendría:
 
-Alta facturación total 🟢
-Alta calificación promedio ⭐
-Bajo costo de envío 💰
+-Alta facturación total 🟢
+-Alta calificación promedio ⭐
+-Bajo costo de envío 💰
 
 🔝 Índice de conveniencia por tienda:
-Cada barra representa una tienda.
-Mientras más alto el índice (más cerca de 3), más conveniente es vender ahí (mejores ventas, satisfacción, y menor costo de envío).
+-Cada barra representa una tienda.
+-Mientras más alto el índice (más cerca de 3), más conveniente es vender ahí (mejores ventas, satisfacción, y menor costo de envío).
 
 por ultimo,
 Instrucciones para ejecutar el notebook:
